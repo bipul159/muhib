@@ -131,7 +131,7 @@ try:
     #if "maintenance" in xnx:
       #  os.system('clear')
        # print(f'[>]  MAINTENANCE BREAK RUNNING\n')
-        sys.exit()
+     #   sys.exit()
     if "off" in xnx:
         print(f'{P}[>] {H}TOOL IS OFF NOW ')
         sys.exit()
