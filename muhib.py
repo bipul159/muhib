@@ -130,7 +130,7 @@ try:
     #xnx = requests.get('https://raw.githubusercontent.com/MUHIB-143/CONTROL-ROOM/main/IFBD.txt').text
     #if "maintenance" in xnx:
       #  os.system('clear')
-        print(f'[>]  MAINTENANCE BREAK RUNNING\n')
+       # print(f'[>]  MAINTENANCE BREAK RUNNING\n')
         sys.exit()
     if "off" in xnx:
         print(f'{P}[>] {H}TOOL IS OFF NOW ')
