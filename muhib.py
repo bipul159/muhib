@@ -132,19 +132,19 @@ try:
       #  os.system('clear')
        # print(f'[>]  MAINTENANCE BREAK RUNNING\n')
      #   sys.exit()
-    if "off" in xnx:
-        print(f'{P}[>] {H}TOOL IS OFF NOW ')
-        sys.exit()
-    if "update" in xnx:
-        for up in range(999):
-            print(" \033[1;92m  PLEASE WAIT YOUR NEXT UPDATE ")
-            time.sleep(0.01)
-    if "server" in xnx:
-        print('SERVER IS OFF')
-        sys.exit()
-except requests.exceptions.ConnectionError:
-    print("FIX YOUR INTERNET BRUH")
-    sys.exit()
+    # if "off" in xnx:
+      #  print(f'{P}[>] {H}TOOL IS OFF NOW ')
+        #sys.exit()
+ #   if "update" in xnx:
+        #for up in range(999):
+           # print(" \033[1;92m  PLEASE WAIT YOUR NEXT UPDATE ")
+         #   time.sleep(0.01)
+   # if "server" in xnx:
+     #   print('SERVER IS OFF')
+        #sys.exit()
+#except requests.exceptions.ConnectionError:
+    #print("FIX YOUR INTERNET BRUH")
+    #sys.exit()
 
 #______________Installation_______________#
 
