@@ -163,7 +163,7 @@ def Main():
       #  os.system('xdg-open https://m.me/j/AbZ2my4ItH6-xc-y/')
    # if me in ["3","03"]:
         #os.system("xdg-open https://facebook.com/its.muhib.7")
-    if me in ["E","0"]:
+   # if me in ["E","0"]:
         os.system('exit')
     if me in ["N","9"]:
     	tocl()
