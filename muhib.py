@@ -129,7 +129,7 @@ try:
     os.system('clear')
     #xnx = requests.get('https://raw.githubusercontent.com/MUHIB-143/CONTROL-ROOM/main/IFBD.txt').text
     #if "maintenance" in xnx:
-        os.system('clear')
+      #  os.system('clear')
         print(f'[>]  MAINTENANCE BREAK RUNNING\n')
         sys.exit()
     if "off" in xnx:
